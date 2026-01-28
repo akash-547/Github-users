@@ -13,7 +13,7 @@ const App = () => {
     setError("");
     setUser(null);
 
-    try {
+    try{
       const response = await fetch(
         `https://api.github.com/users/${username}`
       );
